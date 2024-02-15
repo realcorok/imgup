@@ -8,7 +8,7 @@ function uploadImage() {
         const formData = new FormData();
         formData.append('image', file);
 
-        fetch('https://api.imgbb.com/1/upload?key=YOUR_API_KEY', {
+        fetch('https://api.imgbb.com/1/upload?key=e980f370a75045876e4e80a05a88be21', {
             method: 'POST',
             body: formData,
         })
